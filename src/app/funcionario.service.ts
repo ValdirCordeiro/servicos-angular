@@ -2,6 +2,7 @@ import { LogService } from './log.service';
 
 import { Injectable } from '@angular/core';
 
+// Só precisa do @Injectable em serviços que recebem classes injetadas
 @Injectable()
 export class FuncionarioService {
 
